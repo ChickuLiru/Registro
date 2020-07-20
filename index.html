@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/functions.js"></script>
+</head>
+<body>
+    <header class="header">
+            <h1 class="header-title">Sistema de compras</h1>
+    </header>
+    <form class="form">
+        <h1 class="form-title">Cliente</h1>
+        <hr>
+    <div class="process">
+        <label class="lbl">Nome:</label>
+        <input class="input" id="nome" type="text" placeholder="Digite seu nome">
+        <label class="lbl">Dt. Nascimento:</label>
+        <input class="input" id="dt" type="date">
+        <label class="lbl">E-mail:</label>   
+        <input class="input" id="email" type="email" placeholder="Digite seu E-mail">
+        <label class="lbl">Telefone:</label>
+        <input class="input" id="tel" type="number" placeholder="Digite seu número">
+    </div>
+    <hr>
+    <button class="btn btn-1" type="reset">Cancelar</button>
+    <button class="btn btn-2" type="submit" onclick="salvar()">Salvar</button>
+    </form>
+
+</body>
+</html>
