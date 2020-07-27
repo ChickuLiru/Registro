@@ -55,8 +55,12 @@ hr{
     width: 636px;
     height: 35px;
     border-radius: 12px;
+    transition: 0.25s;
 }
-.input:focus{outline: none;}
+.input:focus{
+    outline: none;
+    width: 638px;
+}
 .btn{
     display: inline-block;
     width: 200px;
@@ -66,8 +70,10 @@ hr{
     font-weight: bold;
     font-size: 16px;
     color: white;
+    transition: 0.25s;
 }
 .btn:focus{outline: none;}
+.btm:hover{border-color: maroon;}
 .btn-1{
     margin-left: 23%;
     background-color: #B8B6B6;

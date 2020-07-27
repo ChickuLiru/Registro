@@ -8,7 +8,7 @@ function salvar(){
    }if(dt == ""){
     alert("Insira sua data de nascimento!")
    }if(email == ""){
-    alert("Insira seu E-mail!")
+    alert("Insira o E-mail!")
    }if(tel == ""){
     alert("Insira seu Telefone!")
    }
